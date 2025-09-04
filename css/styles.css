@@ -1,0 +1,190 @@
+/* Основні стилі */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+  color: #434455;
+}
+
+/* Скидання дефолтних стилів для списків та посилань */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+}
+
+.body-header-and-footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18p;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-header-span {
+    color: #2e2f42;
+}
+
+.logo {
+    font-size: 18px;
+    letter-spacing: 0.03em;
+}
+
+.nav-element {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.nav-element:hover {
+    color: #404bbf;
+}
+
+.nav-element:focus {
+    color: #404bbf;
+}
+
+.header-address {
+    font-style: normal;
+}
+
+.address-element {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address-element:hover {
+    color: #404bbf;
+}
+
+.address-element:focus {
+    color: #404bbf;
+}
+
+.main-hero {
+    background-color: #2e2f42;
+}
+
+.hero-header {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.hero-button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    background-color: #404BBF;
+}
+
+.hero-button:focus {
+    background-color: #404BBF;
+}
+
+.advantages-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.advantages-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.section-team {
+    background-color: #F4F4FD;
+}
+
+.team-header-main{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.team-list-names {
+    background-color: #FFFFFF;
+}
+
+.team-header-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.portfolio-card__name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  
+}
+
+.portfolio-card__category {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+} 
+
+.body-footer {
+    background-color: #2e2f42;
+}
+
+.logo-footer-span {
+    color: #f4f4fd;
+}
+
+.footer-p {
+    --p-color: #F4F4FD;
+    line-height: 1.5;
+    color: var(--p-color);
+    letter-spacing: 0.02em;
+}
+
