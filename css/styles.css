@@ -12,10 +12,24 @@ a {
   color: inherit;
 }
 
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 ul,
 li {
   list-style: none;
   margin: 0;
+  padding-left: 0;
 }
 
 .body-header {
@@ -160,6 +174,19 @@ li {
   justify-content: center;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .advantages-list {
   display: flex;
   flex-direction: row;
@@ -241,7 +268,7 @@ li {
 }
 
 .portfolio-card {
-  border: 2px, solid #e7e9fc;
+  border: 2px solid #e7e9fc;
 }
 
 .portfolio-card__name {
