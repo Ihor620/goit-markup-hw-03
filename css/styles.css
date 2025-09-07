@@ -81,6 +81,10 @@ li {
   letter-spacing: 0.03em;
 }
 
+.logo-header {
+  margin-right: 76px;
+}
+
 .nav-element {
   font-weight: 500;
   line-height: 1.5;
