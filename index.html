@@ -19,7 +19,7 @@
   <body>
     <!-- HEADER -->
     <header class="body-header">
-      <div class="header-container">
+      <div class="container header-container">
         <nav class="header-nav">
           <a href="./index.html" class="logo"
             >Web<span class="logo-header-span">Studio</span></a
@@ -51,159 +51,187 @@
     <main>
       <!-- HERO -->
       <section id="hero" class="main-hero">
-        <h1 class="hero-header">Effective Solutions for Your Business</h1>
-        <button type="button" class="hero-button">Order Service</button>
+        <div class="container main-hero-container">
+          <h1 class="hero-header">Effective Solutions for Your Business</h1>
+          <button type="button" class="hero-button">Order Service</button>
+        </div>
       </section>
 
       <!-- ADVANTAGES -->
       <section id="advantages">
-        <h2 class="visually-hidden">This will be hidden</h2>
-        <ul class="advantages-list">
-          <li>
-            <h3 class="advantages-header">Strategy</h3>
-            <p class="advantages-p">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="advantages-header">Punctuality</h3>
-            <p class="advantages-p">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="advantages-header">Diligence</h3>
-            <p class="advantages-p">
-              Research and confirm brands with the strongest digital growth
-              opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="advantages-header">Technologies</h3>
-            <p class="advantages-p">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+        <div class="container advantages-container">
+          <h2 class="visually-hidden">This will be hidden</h2>
+          <ul class="advantages-list">
+            <li>
+              <h3 class="advantages-header">Strategy</h3>
+              <p class="advantages-p">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li>
+              <h3 class="advantages-header">Punctuality</h3>
+              <p class="advantages-p">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li>
+              <h3 class="advantages-header">Diligence</h3>
+              <p class="advantages-p">
+                Research and confirm brands with the strongest digital growth
+                opportunities and minimize risk.
+              </p>
+            </li>
+            <li>
+              <h3 class="advantages-header">Technologies</h3>
+              <p class="advantages-p">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- TEAM -->
       <section id="team" class="section-team">
-        <h2 class="team-header-main">Our Team</h2>
-        <ul class="team-list">
-          <li class="team-list-names">
-            <img
-              src="./images/mark-guerrero.jpg"
-              alt="Mark Guerrero - Product Designer"
-              width="264"
-            />
-            <h3 class="team-header-name">Mark Guerrero</h3>
-            <p class="team-p">Product Designer</p>
-          </li>
-          <li class="team-list-names">
-            <img
-              src="./images/tom-ford.jpg"
-              alt="Tom Ford - Frontend Developer"
-              width="264"
-            />
-            <h3 class="team-header-name">Tom Ford</h3>
-            <p class="team-p">Frontend Developer</p>
-          </li>
-          <li class="team-list-names">
-            <img
-              src="./images/camila-garcia.jpg"
-              alt="Camila Garcia - Marketing"
-              width="264"
-            />
-            <h3 class="team-header-name">Camila Garcia</h3>
-            <p class="team-p">Marketing</p>
-          </li>
-          <li class="team-list-names">
-            <img
-              src="./images/daniel-wilson.jpg"
-              alt="Daniel Wilson - UI Designer"
-              width="264"
-            />
-            <h3 class="team-header-name">Daniel Wilson</h3>
-            <p class="team-p">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container section-team-container">
+          <h2 class="team-header-main">Our Team</h2>
+          <ul class="team-list">
+            <li class="team-list-names">
+              <img
+                src="./images/mark-guerrero.jpg"
+                alt="Mark Guerrero - Product Designer"
+                width="264"
+              />
+              <div class="team-content">
+                <h3 class="team-header-name">Mark Guerrero</h3>
+                <p class="team-p">Product Designer</p>
+              </div>
+            </li>
+            <li class="team-list-names">
+              <img
+                src="./images/tom-ford.jpg"
+                alt="Tom Ford - Frontend Developer"
+                width="264"
+              />
+              <div class="team-content">
+                <h3 class="team-header-name">Tom Ford</h3>
+                <p class="team-p">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="team-list-names">
+              <img
+                src="./images/camila-garcia.jpg"
+                alt="Camila Garcia - Marketing"
+                width="264"
+              />
+              <div class="team-content">
+                <h3 class="team-header-name">Camila Garcia</h3>
+              </div>
+              <p class="team-p">Marketing</p>
+            </li>
+            <li class="team-list-names">
+              <img
+                src="./images/daniel-wilson.jpg"
+                alt="Daniel Wilson - UI Designer"
+                width="264"
+              />
+              <div class="team-content">
+                <h3 class="team-header-name">Daniel Wilson</h3>
+                <p class="team-p">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- PORTFOLIO -->
       <section>
-        <h2 class="portfolio-title">Our Portfolio</h2>
-        <ul class="portfolio-grid">
-          <li class="portfolio-card">
-            <img
-              src="./images/banking-app.jpg"
-              alt="Banking App"
-              width="360"
-              height="300"
-            />
-            <h3 class="portfolio-card__name">Banking App</h3>
-            <p class="portfolio-card__category">App</p>
-          </li>
-          <li class="portfolio-card">
-            <img
-              src="./images/cashless-payment.jpg"
-              alt="Cashless Payment"
-              width="360"
-              height="300"
-            />
-            <h3 class="portfolio-card__name">Cashless Payment</h3>
-            <p class="portfolio-card__category">Marketing</p>
-          </li>
-          <li class="portfolio-card">
-            <img
-              src="./images/meditation-app.jpg"
-              alt="Meditation App"
-              width="360"
-              height="300"
-            />
-            <h3 class="portfolio-card__name">Meditation App</h3>
-            <p class="portfolio-card__category">App</p>
-          </li>
-          <li class="portfolio-card">
-            <img
-              src="./images/taxi-service.jpg"
-              alt="Taxi Service"
-              width="360"
-              height="300"
-            />
-            <h3 class="portfolio-card__name">Taxi Service</h3>
-            <p class="portfolio-card__category">Marketing</p>
-          </li>
-          <li class="portfolio-card">
-            <img
-              src="./images/screen-illustrations.jpg"
-              alt="Screen Illustrations"
-              width="360"
-              height="300"
-            />
-            <h3 class="portfolio-card__name">Screen Illustrations</h3>
-            <p class="portfolio-card__category">Design</p>
-          </li>
-          <li class="portfolio-card">
-            <img
-              src="./images/online-courses.jpg"
-              alt="Online Courses"
-              width="360"
-              height="300"
-            />
-            <h3 class="portfolio-card__name">Online Courses</h3>
-            <p class="portfolio-card__category">Marketing</p>
-          </li>
-        </ul>
+        <div class="container section-container">
+          <h2 class="portfolio-title">Our Portfolio</h2>
+          <ul class="portfolio-grid">
+            <li class="portfolio-card">
+              <img
+                src="./images/banking-app.jpg"
+                alt="Banking App"
+                width="360"
+                height="300"
+              />
+              <div class="portfolio-card-content">
+                <h3 class="portfolio-card__name">Banking App</h3>
+                <p class="portfolio-card__category">App</p>
+              </div>
+            </li>
+            <li class="portfolio-card">
+              <img
+                src="./images/cashless-payment.jpg"
+                alt="Cashless Payment"
+                width="360"
+                height="300"
+              />
+              <div class="portfolio-card-content">
+                <h3 class="portfolio-card__name">Cashless Payment</h3>
+                <p class="portfolio-card__category">Marketing</p>
+              </div>
+            </li>
+            <li class="portfolio-card">
+              <img
+                src="./images/meditation-app.jpg"
+                alt="Meditation App"
+                width="360"
+                height="300"
+              />
+              <div class="portfolio-card-content">
+                <h3 class="portfolio-card__name">Meditation App</h3>
+                <p class="portfolio-card__category">App</p>
+              </div>
+            </li>
+            <li class="portfolio-card">
+              <img
+                src="./images/taxi-service.jpg"
+                alt="Taxi Service"
+                width="360"
+                height="300"
+              />
+              <div class="portfolio-card-content">
+                <h3 class="portfolio-card__name">Taxi Service</h3>
+                <p class="portfolio-card__category">Marketing</p>
+              </div>
+            </li>
+            <li class="portfolio-card">
+              <img
+                src="./images/screen-illustrations.jpg"
+                alt="Screen Illustrations"
+                width="360"
+                height="300"
+              />
+              <div class="portfolio-card-content">
+                <h3 class="portfolio-card__name">Screen Illustrations</h3>
+                <p class="portfolio-card__category">Design</p>
+              </div>
+            </li>
+            <li class="portfolio-card">
+              <img
+                src="./images/online-courses.jpg"
+                alt="Online Courses"
+                width="360"
+                height="300"
+              />
+              <div class="portfolio-card-content">
+                <h3 class="portfolio-card__name">Online Courses</h3>
+                <p class="portfolio-card__category">Marketing</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <!-- FOOTER -->
     <footer class="body-footer">
-      <div class="footer-container">
+      <div class="conatainer footer-container">
         <a href="./index.html" class="logo logo-footer"
           >Web<span class="logo-footer-span">Studio</span></a
         >
