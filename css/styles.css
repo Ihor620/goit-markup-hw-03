@@ -33,9 +33,9 @@ li {
 }
 
 .body-header {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 18p;
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -77,6 +77,7 @@ li {
 }
 
 .logo {
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   letter-spacing: 0.03em;
 }
@@ -128,7 +129,6 @@ li {
 
 .main-hero {
   background-color: #2e2f42;
-  height: 600px;
   min-width: 1440px;
   display: flex;
   justify-content: center;
@@ -304,7 +304,6 @@ li {
   align-items: center;
   justify-content: center;
   column-gap: 24px;
-  margin: 72px auto 120px;
   row-gap: 48px;
 }
 
@@ -340,8 +339,6 @@ li {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 32px;
-  margin-left: 16px;
 }
 
 .body-footer {
